@@ -45,27 +45,26 @@ body {
 #colorBox0 {
     background-color: white; 
     margin: 10%; 
-    border-radius: 50%; 
-    height: 25px; 
-    width: 25px; 
+    border-radius: 50%;
+    width: 30px; 
+    height: 30px; 
     border: 2px solid black; 
-
 }
 
 #colorBox1 {
     background-color: #F778A1; 
     margin: 10%; 
     border-radius: 50%; 
-    height: 25px; 
-    width: 25px; 
+    height: 30px; 
+    width: 30px; 
     border: 0;
 }
 
 
 #colorBox2 {
     background-color: #6698FF; 
-    width: 25px;  
-    height: 25px;
+    width: 30px;  
+    height: 30px;
     border-radius: 50%; 
     margin: 10%; 
     border: 0; 
@@ -73,8 +72,8 @@ body {
 
 #colorBox3 {
     background-color: #FFE87C; 
-    width: 25px;  
-    height: 25px;
+    width: 30px;  
+    height: 30px;
     border-radius: 50%;  
     margin: 10%; 
     border: 0; 
@@ -82,8 +81,8 @@ body {
 
 #colorBox4 {
     background-color: #34A56F;
-    width: 25px;  
-    height: 25px;
+    width: 30px;  
+    height: 30px;
     border-radius: 50%;  
     margin: 10%; 
     border: 0; 
