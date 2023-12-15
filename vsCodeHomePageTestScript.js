@@ -25,12 +25,33 @@ function greenClick(){
 function whiteClick(){
     document.body.style.backgroundColor = 'white'; 
     changeColorText( 'color: #FFFFFF;' ); 
+    setStyleBoxesBlack(); 
 }
 
 function resetStyleBoxes(){
     document.getElementById( "styleBox1" ).style.backgroundColor = 'white'; 
     document.getElementById( "styleBox2" ).style.backgroundColor = 'white'; 
     document.getElementById( "styleBox3" ).style.backgroundColor = 'white';
+    document.getElementById( "insideStyle" ).style.color = 'black';
+    document.getElementById( "styleBox1" ).style.border = '2px solid black'; 
+    document.getElementById( "styleBox2" ).style.border = '2px solid black';
+    document.getElementById( "styleBox3" ).style.border = '2px solid black'; 
+    document.getElementById( "styleBox1" ).style.color = 'black'; 
+    document.getElementById( "styleBox3" ).style.color = 'black';
+
+}
+
+function setStyleBoxesBlack(){
+    document.getElementById( "styleBox1" ).style.backgroundColor = 'black'; 
+    document.getElementById( "styleBox2" ).style.backgroundColor = 'black'; 
+    document.getElementById( "styleBox3" ).style.backgroundColor = 'black';
+    document.getElementById( "insideStyle" ).style.color = 'yellow';
+    document.getElementById( "styleBox1" ).style.border = '2px solid #00ccff'; 
+    document.getElementById( "styleBox2" ).style.border = '2px solid #00ccff';
+    document.getElementById( "styleBox3" ).style.border = '2px solid #00ccff'; 
+    document.getElementById( "styleBox1" ).style.color = '#33e96c'; 
+    document.getElementById( "styleBox3" ).style.color = '#33e96c';  
+
 }
 
 function changeColorText( newcolorString ){
