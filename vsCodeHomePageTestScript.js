@@ -1,30 +1,30 @@
 function redClick(){
     document.body.style.backgroundColor = '#F778A1';  
     resetStyleBoxes(); 
-    changeColorText( 'color: #F778A1;' ); 
+    changeColorText( 'background-color: #F778A1;' ); 
 }
 
 function blueClick(){
     document.body.style.backgroundColor = '#6698FF'; 
     resetStyleBoxes(); 
-    changeColorText( 'color: #6698FF;' ); 
+    changeColorText( 'background-color: #6698FF;' ); 
 }
 
 function yellowClick(){
     document.body.style.backgroundColor = '#FFE87C'; 
     resetStyleBoxes(); 
-    changeColorText( 'color: #FFE87C;' ); 
+    changeColorText( 'background-color: #FFE87C;' ); 
 }
 
 function greenClick(){
     document.body.style.backgroundColor = '#34A56F'; 
     resetStyleBoxes(); 
-    changeColorText( 'color: #34A56F;' ); 
+    changeColorText( 'background-color: #34A56F;' ); 
 }
 
 function whiteClick(){
     document.body.style.backgroundColor = 'white'; 
-    changeColorText( 'color: #FFFFFF;' ); 
+    changeColorText( 'background-color: #FFFFFF;' ); 
     setStyleBoxesBlack(); 
 }
 
