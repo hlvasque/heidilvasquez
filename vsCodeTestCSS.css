@@ -52,7 +52,7 @@ body {
 #styleBox3 {
     background-color: black;
     border: 2px solid #00ccff; 
-    border-radius: 0 0 10px 10px;  
+    border-radius: 0 0 10px 0;  
     color: #33e96c; 
 }
 
@@ -109,5 +109,4 @@ body {
 
 #insideStyle{
     color: yellow; 
-    text-align: left;
 }

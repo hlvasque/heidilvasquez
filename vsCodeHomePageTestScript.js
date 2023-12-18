@@ -39,6 +39,9 @@ function resetStyleBoxes(){
     document.getElementById( "styleBox1" ).style.color = 'black'; 
     document.getElementById( "styleBox3" ).style.color = 'black';
 
+    document.getElementById( "styleBoxMiddle" ).style.backgroundColor = 'white'; 
+    document.getElementById( "styleBoxMiddle" ).style.border = '2px solid black'; 
+
 }
 
 function setStyleBoxesBlack(){
@@ -51,6 +54,12 @@ function setStyleBoxesBlack(){
     document.getElementById( "styleBox3" ).style.border = '2px solid #00ccff'; 
     document.getElementById( "styleBox1" ).style.color = '#33e96c'; 
     document.getElementById( "styleBox3" ).style.color = '#33e96c';  
+
+    document.getElementById( "styleBoxMiddle" ).style.backgroundColor = 'black'; 
+    document.getElementById( "styleBoxMiddle" ).style.border = '2px solid #00ccff'; 
+
+
+
 
 }
 
