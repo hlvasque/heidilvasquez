@@ -110,3 +110,9 @@ body {
 #insideStyle{
     color: yellow; 
 }
+
+.verticalLine{
+    border-left: 2px solid grey; 
+    height: 100%;
+
+}
