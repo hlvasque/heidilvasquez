@@ -43,7 +43,7 @@ body {
 
 #styleBoxMiddle {
     background-color: black; 
-    border: 2px solid #00ccff; 
+    border: 1px solid #00ccff; 
     border-radius: 0 10px 0 0;
     color: grey; 
     font-size: 80%;
