@@ -69,9 +69,9 @@ function changeColorText( newcolorString ){
 
 //define an array that holds urls 
 var albumUrls = [
-    "../Desktop/Reik.png",
-    "../Downloads/Rebelde_album_cover.jpg",
-    "../Desktop/carlosBaute.png"
+    "Reik.png",
+    "Rebelde_album_cover.jpg",
+    "carlosBaute.png"
 ];
 
 var albumCaptions = [
