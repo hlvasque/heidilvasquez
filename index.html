@@ -5,7 +5,7 @@
 
     <script src = "vsCodeHomePageTestScript.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
+    
 </head>
 <body>
     
@@ -148,6 +148,44 @@
                 </div>
             </div>
         </div><br>
+
+        <div>
+            <h1 class = "display-6">interests</h1>
+            <p style = "margin: 0%"><b>Music</b></p>
+            <div class = "row">
+                <div class = "col-lg-4">
+                    <p style = "margin:0%; font-style: italic;">Music gives a soul to the universe, wings to the mind, flight to the imagination and life to everything.</p>
+                    <p style = "margin-top:0%">-Plato</p>
+                    <p>I love music! It is what gets me locked into work mode, 
+                        and inspires my creativity. Here are some of my favorite songs. </p>
+                </div>
+                <div class = "col-lg-8">
+                    <figure>
+                        <img id = "albumPic" class = "imag-responsive" src = "../Desktop/Reik.png" alt = "Reik album cover" width = "60%">
+                        <figcaption id = "albumCaption"><em>Levemente,</em> Reik</figcaption>
+                    </figure>
+                        <div class = "row">
+                            <div class = "col-2">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="60%" height="60%" fill="currentColor" class="bi bi-skip-backward" viewBox="0 0 16 16" onclick = "prevAlbum()">
+                                    <path d="M.5 3.5A.5.5 0 0 1 1 4v3.248l6.267-3.636c.52-.302 1.233.043 1.233.696v2.94l6.267-3.636c.52-.302 1.233.043 1.233.696v7.384c0 .653-.713.998-1.233.696L8.5 8.752v2.94c0 .653-.713.998-1.233.696L1 8.752V12a.5.5 0 0 1-1 0V4a.5.5 0 0 1 .5-.5m7 1.133L1.696 8 7.5 11.367zm7.5 0L9.196 8 15 11.367z"/>
+                                </svg>
+                            </div>
+                            <div class = "col-4">
+                                <audio id = "musicSrc" controls style = "width: 110%;">
+                                    <source src = "../Downloads/ReikLevemente.mp3" type = "audio/mpeg">
+                                    Your browser does not support the audio element.
+                                </audio>                                        
+                            </div>
+                            <div class = "col-2">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="60%" height="60%" fill="currentColor" class="bi bi-skip-end" viewBox="0 0 16 16" onclick = "nextAlbum()">
+                                    <path d="M12.5 4a.5.5 0 0 0-1 0v3.248L5.233 3.612C4.713 3.31 4 3.655 4 4.308v7.384c0 .653.713.998 1.233.696L11.5 8.752V12a.5.5 0 0 0 1 0zM5 4.633 10.804 8 5 11.367z"/>
+                                </svg>
+                            </div>
+                        </div>
+                </div>
+            </div>
+        </div><br>
+
         <div>
             <h1 class = "display-6">contact</h1>
             <div class = "row">

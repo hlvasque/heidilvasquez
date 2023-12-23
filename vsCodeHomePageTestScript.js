@@ -66,3 +66,66 @@ function setStyleBoxesBlack(){
 function changeColorText( newcolorString ){
     document.getElementById( "chosenColor" ).innerText = newcolorString; 
 }
+
+//define an array that holds urls 
+var albumUrls = [
+    "../Desktop/Reik.png",
+    "../Downloads/Rebelde_album_cover.jpg",
+    "../Desktop/carlosBaute.png"
+];
+
+var albumCaptions = [
+    "<em>Levemente,</em> Reik", 
+    "<em>Solo Quedate En Silencio,</em> RBD",
+    "<em>Colgando En Tus Manos,</em> Carlos Baute"
+];
+
+var currAlbum = 1; 
+
+///////////////////
+var songUrls = [
+    "../Downloads/ReikLevemente.mp3",
+    //"../Downloads/ReikLevemente.ogg",
+    //"../Downloads/ReikLevemente.ogg"
+    "../Downloads/RBD-SoloQuedateEnSilencio.mp3",
+    "../Downloads/CarlosBaute.mp3"
+];
+
+function nextAlbum(){
+    var albumPic = document.getElementById( "albumPic" ); 
+    var albumCaption = document.getElementById( "albumCaption" ); 
+    var musicSrc = document.getElementById( "musicSrc" ); 
+
+    //set the album pic to the next url 
+    albumPic.src = albumUrls[ currAlbum ];
+    albumCaption.innerHTML = albumCaptions[ currAlbum ]; 
+    musicSrc.src = songUrls[ currAlbum ]; 
+
+    //increment the index, and reset it to 0 if we reach the array length 
+    currAlbum ++; 
+    if( currAlbum === albumUrls.length ) currAlbum = 0; 
+
+}
+
+function prevAlbum(){
+    var albumPic = document.getElementById( "albumPic" ); 
+    var albumCaption = document.getElementById( "albumCaption" ); 
+    var musicSrc = document.getElementById( "musicSrc" ); 
+
+
+    //decrement the index, and reset it to array.length -1 if we reach 0
+
+    if( currAlbum > 1 ) currAlbum -= 2; 
+    else if( currAlbum === 1 ) currAlbum = albumUrls.length -1; 
+    else if( currAlbum === 0 ) currAlbum = albumUrls.length - 2; 
+
+    //set the album pic to the prev url 
+    albumPic.src = albumUrls[ currAlbum ]; 
+    albumCaption.innerHTML = albumCaptions[ currAlbum ]; 
+    musicSrc.src = songUrls[ currAlbum ]; 
+
+    currAlbum ++; 
+    if( currAlbum === albumUrls.length ) currAlbum = 0; 
+
+}
+
