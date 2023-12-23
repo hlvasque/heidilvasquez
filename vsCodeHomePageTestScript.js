@@ -84,11 +84,11 @@ var currAlbum = 1;
 
 ///////////////////
 var songUrls = [
-    "../Downloads/ReikLevemente.mp3",
+    "ReikLevemente.mp3",
     //"../Downloads/ReikLevemente.ogg",
     //"../Downloads/ReikLevemente.ogg"
-    "../Downloads/RBD-SoloQuedateEnSilencio.mp3",
-    "../Downloads/CarlosBaute.mp3"
+    "RBD-SoloQuedateEnSilencio.mp3",
+    "CarlosBaute.mp3"
 ];
 
 function nextAlbum(){
