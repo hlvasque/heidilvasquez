@@ -71,13 +71,18 @@ function changeColorText( newcolorString ){
 var albumUrls = [
     "Reik.png",
     "Rebelde_album_cover.jpg",
-    "carlosBaute.png"
+    "carlosBaute.png",
+    "TuFaltaDeQuerer.png",
+    "RosaPastel.png"
+
 ];
 
 var albumCaptions = [
     "<em>Levemente,</em> Reik", 
     "<em>Solo Quedate En Silencio,</em> RBD",
-    "<em>Colgando En Tus Manos,</em> Carlos Baute"
+    "<em>Colgando En Tus Manos,</em> Carlos Baute",
+    "<em>Tu Falta De Querer,</em> Mon Lafarte",
+    "<em>Rosa Pastel,</em> Belanova"
 ];
 
 var currAlbum = 1; 
@@ -88,7 +93,10 @@ var songUrls = [
     //"../Downloads/ReikLevemente.ogg",
     //"../Downloads/ReikLevemente.ogg"
     "RBD-SoloQuedateEnSilencio.mp3",
-    "CarlosBaute.mp3"
+    "CarlosBaute.mp3", 
+    "TuFaltaDeQuerer.mp3",
+    "RosaPastel.mp3"
+
 ];
 
 function nextAlbum(){
